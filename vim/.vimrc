@@ -25,3 +25,6 @@ syntax enable
 
 " highlights matching brackets
 set showmatch
+
+" sets the color of line numbers to Grey
+highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
