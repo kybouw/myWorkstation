@@ -1,6 +1,3 @@
-# cse will go to and list contents of my cse directory
-alias cse="cd /home/kyle/Projects/cse; ls"
-
 # jcompile will compile all .java files in ./src/ and place the compiled
 # binaries into ./bin/ 
 # must be run in project folder root, like git
