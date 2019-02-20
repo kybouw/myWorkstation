@@ -1,3 +1,6 @@
 [submodule "bash/kcc"]
 	path = bash/kcc
 	url = git@github.com:kybouw/kcc.git
+[submodule "bash/kc"]
+	path = bash/kc
+	url = git@github.com:kybouw/kc.git
