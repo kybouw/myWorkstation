@@ -2,3 +2,6 @@
   editor = vim
 [push]
   default = simple
+[user]
+  name = "Kyle Bouwman"
+  email = "kybouw@users.noreply.github.com
