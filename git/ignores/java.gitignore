@@ -24,3 +24,10 @@ hs_err_pid*
 
 # This crap
 *.DS_Store
+/bin/
+/target/
+
+# eclipse files
+.project
+.classpath
+.settings/
