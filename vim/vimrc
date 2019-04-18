@@ -29,5 +29,5 @@ set showmatch
 " sets the color of line numbers to Grey
 highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 
-" makes the color palette readable
+" makes the color palette readable on a dark background
 set background=dark
