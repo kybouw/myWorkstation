@@ -24,8 +24,8 @@ hs_err_pid*
 
 # This crap
 *.DS_Store
-/bin/
-/target/
+bin/
+target/
 
 # eclipse files
 .project
