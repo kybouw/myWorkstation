@@ -1,7 +1,11 @@
 [core]
-  editor = vim
+    editor = vim
+    abbrev = 7
 [push]
-  default = simple
+    default = simple
 [user]
-  name = "Kyle Bouwman"
-  email = "kybouw@users.noreply.github.com"
+    name = "Kyle Bouwman"
+    email = "kybouw@users.noreply.github.com"
+[alias]
+    hist = log --graph --pretty=oneline --abbrev-commit
+    ci = commit -S
