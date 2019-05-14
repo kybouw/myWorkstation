@@ -5,11 +5,11 @@ set number
 filetype plugin indent on
 
 " when vim opens a file with tab chars, it shows spaces
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 " when editting files, tab and backspace correspond to spaces
-set softtabstop=2
+set softtabstop=4
 
 " turns tabs into spaces. tab becomes a shortcut for spacebar
 set expandtab
@@ -29,5 +29,12 @@ set showmatch
 " sets the color of line numbers to Grey
 highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 
-" makes the color palette readable on a dark background
+" makes the color palette readable
 set background=dark
+
+" creates a vertical bar at column 81
+set cc=81
+
+" maps F7 and F8 to :tabp and :tabn
+nmap <silent> <F7> :tabprev<CR>
+nmap <silent> <F8> :tabnext<CR>
