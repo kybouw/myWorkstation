@@ -38,3 +38,9 @@ set cc=81
 " maps F7 and F8 to :tabp and :tabn
 nmap <silent> <F7> :tabprev<CR>
 nmap <silent> <F8> :tabnext<CR>
+
+" maps F6 to prompt for a new tab filename
+nmap <silent> <F6> :tabnew 
+
+" maps F5 to get rid of highlights
+nmap <silent> <F5> :noh<CR>
