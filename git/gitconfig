@@ -8,4 +8,6 @@
     email = "kybouw@users.noreply.github.com"
 [alias]
     hist = log --graph --pretty=oneline --abbrev-commit
-    ci = commit -S
+    st = status
+    ci = commit
+    pom = push --tags origin master
