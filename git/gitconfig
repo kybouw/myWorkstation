@@ -10,4 +10,4 @@
     hist = log --graph --pretty=oneline --abbrev-commit
     st = status
     ci = commit
-    pom = push --tags origin master
+    pu = push --tags
