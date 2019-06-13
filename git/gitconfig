@@ -1,12 +1,19 @@
 [core]
     editor = vim
     abbrev = 7
+	autocrlf = input
+	safecrlf = true
 [push]
     default = simple
 [user]
     name = "Kyle Bouwman"
-    email = "kybouw@users.noreply.github.com"
+    email = "my school email"
 [alias]
-    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-    ci = commit -S
+    co = checkout
+    ci = commit
     st = status
+    br = branch
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+	pom = push --tags origin master
