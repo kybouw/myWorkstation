@@ -6,8 +6,9 @@
 [push]
     default = simple
 [user]
-    name = "Kyle Bouwman"
-    email = "kybouw@users.noreply.github.com"
+    name = Kyle Bouwman
+    email = kybouw@users.noreply.github.com
+    signingkey = XXXXXXXXXXXXXXXX
 [alias]
     co = checkout
     ci = commit -S
