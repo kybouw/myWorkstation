@@ -1,0 +1,55 @@
+" turn on line numbers
+set number
+
+" turns on filetype detection and indent rules
+filetype plugin indent on
+
+" when vim opens a file with tab chars, it shows spaces
+set tabstop=4
+set shiftwidth=4
+
+" when editting files, tab and backspace correspond to spaces
+set softtabstop=4
+
+" turns tabs into spaces. tab becomes a shortcut for spacebar
+set expandtab
+
+" enable syntax processing
+syntax enable
+
+" highlights current line
+" set cursorline
+
+" makes vim faster bc it doesnt redraw all the time
+" set lazyredraw
+
+" highlights matching brackets
+set showmatch
+
+" changes the color palette
+colorscheme pablo
+
+" changes font settings
+set guifont=Consolas:h10
+
+" sets the color of line numbers to Grey
+highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+
+" makes the color palette readable
+set background=dark
+
+" creates a vertical bar at column 81
+set cc=81
+
+" maps F7 and F8 to :tabp and :tabn
+nmap <silent> <F7> :tabprev<CR>
+nmap <silent> <F8> :tabnext<CR>
+imap <silent> <F7> <ESC>:tabprev<CR>
+imap <silent> <F8> <ESC>:tabnext<CR>
+
+" maps F6 to prompt for a new tab filename
+nmap <F6> :tabnew 
+imap <F6> <ESC>:tabnew 
+
+" maps F5 to get rid of highlights
+nmap <silent> <F5> :noh<CR>
