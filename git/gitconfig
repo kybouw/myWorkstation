@@ -1,21 +1,22 @@
 [core]
-	editor = vim
-	abbrev = 7
-	autocrlf = input
-	safecrlf = true
+    editor = vim
+    abbrev = 7
+    autocrlf = input
+    safecrlf = true
 [push]
-	default = simple
+    default = simple
 [user]
-	name = "Kyle Bouwman"
-	email = "kybouw@users.noreply.github.com"
-	signingkey = XXXXXXXXXXXXXXX
+    name = "Kyle Bouwman"
+    email = "kybouw@users.noreply.github.com"
+    signingkey = XXXXXXXXXXXXXXX
 [alias]
     pu = push --tags
-	co = checkout
-	ci = commit -S
-	st = status
-	br = branch
-	hist = log --graph --pretty=oneline --abbrev-commit
-	type = cat-file -t
-	dump = cat-file -p
-	pom = push --tags origin master
+    co = checkout
+    ci = commit -S
+    st = status
+    br = branch
+    hist = log --graph --pretty=oneline --abbrev-commit
+    type = cat-file -t
+    dump = cat-file -p
+    pom = push --tags origin master
+
