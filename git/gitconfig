@@ -19,4 +19,6 @@
     type = cat-file -t
     dump = cat-file -p
     pom = push --tags origin master
+[init]
+    defaultBranch = main
 
